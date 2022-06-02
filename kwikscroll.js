@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         KwikScroll
-// @namespace    http://tampermonkey.net/
+// @namespace    http://github.com
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        *://mail.google.com/*
+// @description  Web extension that prevents infinite scroll
+// @author       David Gershony
+// @match        *://instagram.com/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // ==/UserScript==
