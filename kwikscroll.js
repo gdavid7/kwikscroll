@@ -45,4 +45,32 @@
             }
         }, 5000);
     }
+    
+    var openedWindow;
+    // write a simple wrapper around window.open that allows legal close
+
+function openWindow() {
+  openedWindow = window.open('instagram.com');
+}
+
+function closeOpenedWindow() {
+  openedWindow.close();
+}
+$(document).ready(function() {
+    setTimeout(function() {
+    window.open('https://i.postimg.cc/Hx7snxdw/beta-s.png','_blank');
+
+    }, 6000);
+});
+/*
+    $(document).ready(function() { //When document has loaded
+openWindow();
+setTimeout(function() {
+
+//Code to run After timeout elapses
+    closeOpenedWindow();
+
+}, 6000); //Two seconds will elapse and Code will execute.
+*/
+//});
 })();
